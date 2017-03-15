@@ -2,7 +2,7 @@
 // animation durations
 const BOUNCING_DURATION = 2000;
 const SWIPING_OUT_DURATION = 500;
-const THROTTLE_THRESHOLD = 200;
+const THROTTLE_THRESHOLD = 100;
 const BASE_URL = 'http://message-list.appspot.com';
 
 // utility functions
