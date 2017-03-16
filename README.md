@@ -47,7 +47,18 @@
   - fast swipe or slow swipe
 
 ## Data binding
+- most of application use Pub/Sub pattern
+- this demo app is simple because only 1 publisher, 1 subscriber, 1 events to listen.
+- create and dispatch custom DOM events.
+```javascript
+var event = new CustomEvent('render', { 'detail': messageIndex });
 
+// Listen for the event.
+domElement.addEventListener('render', renderFun);
+
+// Dispatch the event.
+domElement.dispatchEvent(event);
+```
 
 
 ## Transition and Animation
